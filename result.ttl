@@ -1,0 +1,1627 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix synyiOntology: <http://synyi.com/ontology/> .
+
+synyiOntology:临床表现 a owl:ObjectProperty .
+
+synyiOntology:体征 a owl:ObjectProperty .
+
+synyiOntology:分型 a owl:ObjectProperty .
+
+synyiOntology:危险因素 a owl:ObjectProperty .
+
+synyiOntology:基因突变 a owl:ObjectProperty .
+
+synyiOntology:实验室检查 a owl:ObjectProperty .
+
+synyiOntology:并发症 a owl:ObjectProperty .
+
+synyiOntology:手术输血情况 a owl:ObjectProperty .
+
+synyiOntology:治疗方式 a owl:ObjectProperty .
+
+synyiOntology:治疗方案 a owl:ObjectProperty .
+
+synyiOntology:治疗药物 a owl:ObjectProperty .
+
+synyiOntology:症状 a owl:ObjectProperty .
+
+synyiOntology:科室 a owl:ObjectProperty .
+
+synyiOntology:肝癌 rdfs:label "肝癌" ;
+    synyiOntology:临床表现 synyiOntology:不完整包膜,
+        synyiOntology:冠心病,
+        synyiOntology:完整包膜,
+        synyiOntology:心绞痛,
+        synyiOntology:心肌梗死,
+        synyiOntology:无包膜,
+        synyiOntology:淋巴结转移,
+        synyiOntology:癌栓,
+        synyiOntology:糖尿病,
+        synyiOntology:缺血型心力衰竭,
+        synyiOntology:肝内转移,
+        synyiOntology:肝硬化,
+        synyiOntology:肿瘤包膜,
+        synyiOntology:肿瘤大小,
+        synyiOntology:肿瘤数量,
+        synyiOntology:肿瘤浸润深度,
+        synyiOntology:肿瘤破溃,
+        synyiOntology:肿瘤破裂,
+        synyiOntology:肿瘤部位,
+        synyiOntology:腹水,
+        synyiOntology:远处转移,
+        synyiOntology:阳性淋巴结,
+        synyiOntology:高血压 ;
+    synyiOntology:体征 synyiOntology:乳糜样引流液,
+        synyiOntology:墨绿色引流液,
+        synyiOntology:暗红色引流液,
+        synyiOntology:浆液性引流液,
+        synyiOntology:淡绿色引流液,
+        synyiOntology:淡血性引流液,
+        synyiOntology:肝肿大,
+        synyiOntology:肝脏质地坚硬,
+        synyiOntology:胆汁样引流液,
+        synyiOntology:脓性引流液,
+        synyiOntology:脾肿大,
+        synyiOntology:腹水,
+        synyiOntology:腹部包块,
+        synyiOntology:血性引流液,
+        synyiOntology:血氧饱和度,
+        synyiOntology:鲜红色引流液,
+        synyiOntology:黄疸 ;
+    synyiOntology:分型 synyiOntology:中分化,
+        synyiOntology:低分化,
+        synyiOntology:内热,
+        synyiOntology:气滞,
+        synyiOntology:混合型,
+        synyiOntology:湿热,
+        synyiOntology:痰凝,
+        synyiOntology:肝细胞型,
+        synyiOntology:肝郁,
+        synyiOntology:胆管细胞型,
+        synyiOntology:脾虚,
+        synyiOntology:血瘀,
+        synyiOntology:血虚,
+        <http://synyi.com/ontology/诊断TNM分期（M）>,
+        <http://synyi.com/ontology/诊断TNM分期（N）>,
+        <http://synyi.com/ontology/诊断TNM分期（T）>,
+        synyiOntology:阳虚,
+        synyiOntology:阴虚,
+        synyiOntology:高分化 ;
+    synyiOntology:危险因素 synyiOntology:丁型病毒性肝炎,
+        synyiOntology:丙型病毒性肝炎,
+        synyiOntology:中度脂肪肝,
+        synyiOntology:乙型病毒性肝炎,
+        synyiOntology:原发性硬化性胆管炎,
+        synyiOntology:原发性胆汁性肝硬化,
+        synyiOntology:吸烟,
+        synyiOntology:妇科恶性肿瘤,
+        synyiOntology:戊型病毒性肝炎,
+        synyiOntology:淤血性肝硬化,
+        synyiOntology:混合型肝癌,
+        synyiOntology:甲型病毒性肝炎,
+        synyiOntology:病毒性肝炎,
+        synyiOntology:神经系统恶性肿瘤,
+        synyiOntology:细菌性肝炎,
+        synyiOntology:肝内胆管癌,
+        synyiOntology:肝母细胞瘤,
+        synyiOntology:肝炎,
+        synyiOntology:肝炎后肝硬化,
+        synyiOntology:肝畸胎瘤,
+        synyiOntology:肝硬化,
+        synyiOntology:肝细胞癌,
+        synyiOntology:肝细胞腺癌,
+        synyiOntology:肝脏肿瘤,
+        synyiOntology:肝血管瘤,
+        synyiOntology:肝血管肉瘤,
+        synyiOntology:肝转移性肿瘤,
+        synyiOntology:肝错构瘤,
+        synyiOntology:胆囊癌,
+        synyiOntology:胆汁淤积性肝硬化,
+        synyiOntology:胆管癌,
+        synyiOntology:胰腺癌,
+        synyiOntology:脂肪肝,
+        synyiOntology:脂肪肝肝硬化,
+        synyiOntology:自身免疫性肝炎,
+        synyiOntology:自身免疫性肝硬化,
+        synyiOntology:自身免疫性肝脏疾病,
+        synyiOntology:药物性肝炎,
+        synyiOntology:药物性肝硬化,
+        synyiOntology:血吸虫性肝硬化,
+        synyiOntology:血液系统肿瘤,
+        synyiOntology:轻度脂肪肝,
+        synyiOntology:过敏,
+        synyiOntology:酒精性肝炎,
+        synyiOntology:酒精性肝硬化,
+        synyiOntology:重度脂肪肝,
+        synyiOntology:非酒精性肝炎,
+        synyiOntology:非酒精性脂肪性肝硬化,
+        synyiOntology:饮酒,
+        synyiOntology:骨骼系统恶性肿瘤 ;
+    synyiOntology:基因突变 synyiOntology:AFP,
+        synyiOntology:ARID1A,
+        synyiOntology:ARID2,
+        synyiOntology:ATM,
+        synyiOntology:AXIN1,
+        synyiOntology:Arg-1,
+        synyiOntology:Arginase-1,
+        synyiOntology:CD34,
+        synyiOntology:CDKN2A,
+        synyiOntology:CK19,
+        synyiOntology:CK7,
+        synyiOntology:CTNNB1,
+        synyiOntology:CgA,
+        synyiOntology:EMA,
+        synyiOntology:GS,
+        synyiOntology:Glypican-3,
+        synyiOntology:HNF1A,
+        synyiOntology:HSP70,
+        synyiOntology:Hepatocyte,
+        synyiOntology:KMT2C,
+        synyiOntology:Ki67,
+        synyiOntology:PIK3CA,
+        synyiOntology:Syn,
+        synyiOntology:TERT,
+        synyiOntology:TP53,
+        synyiOntology:TTF1 ;
+    synyiOntology:实验室检查 synyiOntology:PD-1相关检测,
+        synyiOntology:PD-1表达,
+        synyiOntology:PDL-1表达,
+        synyiOntology:丙肝抗原抗体检测,
+        synyiOntology:丙肝病毒抗体,
+        synyiOntology:丙肝病毒的核糖核酸,
+        synyiOntology:乙型肝炎E抗体,
+        synyiOntology:乙型肝炎E抗原,
+        synyiOntology:乙型肝炎病毒表面抗体,
+        synyiOntology:乙肝抗原抗体检测,
+        synyiOntology:乙肝核心抗体,
+        synyiOntology:乙肝病毒DNA,
+        synyiOntology:乙肝表面抗原,
+        synyiOntology:生物治疗-肿瘤基因突变负荷,
+        <http://synyi.com/ontology/生物治疗-肿瘤浸润淋巴细胞检测（%）>,
+        synyiOntology:生物治疗-表达联合阳性评分,
+        <http://synyi.com/ontology/生物治疗-表达肿瘤比例分数（%）>,
+        synyiOntology:病毒滴度 ;
+    synyiOntology:并发症 synyiOntology:下腔静脉癌栓,
+        synyiOntology:肝中静脉癌栓,
+        synyiOntology:肝右静脉癌栓,
+        synyiOntology:肝左静脉癌栓,
+        synyiOntology:肝硬化,
+        synyiOntology:肝静脉癌栓,
+        synyiOntology:胆管癌栓,
+        synyiOntology:脉管侵犯,
+        synyiOntology:脉管内癌栓,
+        synyiOntology:脾肿大,
+        synyiOntology:腹水,
+        synyiOntology:门静脉癌栓 ;
+    synyiOntology:手术输血情况 synyiOntology:全血,
+        synyiOntology:冷沉淀,
+        synyiOntology:白蛋白,
+        synyiOntology:红细胞,
+        synyiOntology:血小板,
+        synyiOntology:血浆 ;
+    synyiOntology:操作 synyiOntology:留置腹腔引流管 ;
+    synyiOntology:治疗方式 synyiOntology:Belghiti悬吊法,
+        synyiOntology:CIK,
+        synyiOntology:CUSA,
+        synyiOntology:DC_CIK,
+        synyiOntology:ERBE电凝钳,
+        <http://synyi.com/ontology/LAK/TIL>,
+        synyiOntology:Ligasure,
+        synyiOntology:NK,
+        synyiOntology:PD1,
+        synyiOntology:PDL-1,
+        synyiOntology:RFA,
+        synyiOntology:RFA-消融针,
+        synyiOntology:RFA设备,
+        synyiOntology:TACE手术,
+        synyiOntology:TcM,
+        synyiOntology:Tissuelink,
+        synyiOntology:WMA,
+        synyiOntology:WMA设备,
+        synyiOntology:三维适形放疗,
+        synyiOntology:以色列氩氦刀,
+        synyiOntology:伽马刀,
+        synyiOntology:全血,
+        synyiOntology:内照射,
+        synyiOntology:冷冻消融,
+        synyiOntology:冷沉淀,
+        synyiOntology:化学消融,
+        synyiOntology:化疗治疗,
+        synyiOntology:区域淋巴结清扫术,
+        synyiOntology:半肝切除术,
+        synyiOntology:双极电凝,
+        synyiOntology:取癌栓或切除癌栓,
+        synyiOntology:右侧入肝血流阻断,
+        synyiOntology:姑息性放疗,
+        synyiOntology:射波刀,
+        synyiOntology:局部消融治疗,
+        synyiOntology:左侧入肝血流阻断,
+        synyiOntology:开放式手术,
+        synyiOntology:彭氏刮吸刀,
+        synyiOntology:微波固化,
+        synyiOntology:微波消融,
+        synyiOntology:手术操作信息-淋巴结清扫,
+        synyiOntology:手术操作信息-肝断面处理方式,
+        synyiOntology:扩大半肝切除术,
+        synyiOntology:扩大淋巴结清扫,
+        synyiOntology:抗病毒治疗,
+        synyiOntology:新辅助化疗,
+        synyiOntology:术中放疗,
+        synyiOntology:术前放疗,
+        synyiOntology:术后放疗,
+        synyiOntology:机器人手术,
+        synyiOntology:根治性放疗,
+        synyiOntology:止血纱布覆盖,
+        synyiOntology:氩气刀烧灼,
+        synyiOntology:水刀,
+        synyiOntology:治疗性化疗,
+        synyiOntology:液氮,
+        synyiOntology:淋巴结清扫,
+        synyiOntology:生物治疗,
+        synyiOntology:生物蛋白胶覆盖,
+        synyiOntology:电刀,
+        synyiOntology:立体定向放疗,
+        synyiOntology:第一肝门阻断,
+        synyiOntology:红细胞,
+        synyiOntology:纳米刀消融,
+        synyiOntology:纳米刀消融-纳米刀设备,
+        synyiOntology:美国氩氦刀,
+        synyiOntology:肝上下腔静脉阻断,
+        synyiOntology:肝下下腔静脉阻断,
+        synyiOntology:肝中静脉阻断,
+        synyiOntology:肝右动脉阻断,
+        synyiOntology:肝右静脉阻断,
+        synyiOntology:肝固有动脉阻断,
+        synyiOntology:肝射频消融术,
+        synyiOntology:肝尾叶切除术,
+        synyiOntology:肝左动脉阻断,
+        synyiOntology:肝左静脉阻断,
+        synyiOntology:肝段切除术,
+        synyiOntology:肝移植术,
+        synyiOntology:肝肿瘤剜除术,
+        synyiOntology:肝肿瘤局限性切除术,
+        synyiOntology:腔镜中转开放手术,
+        synyiOntology:腔镜手术,
+        synyiOntology:腹腔镜肝切除术,
+        synyiOntology:血小板,
+        synyiOntology:血浆,
+        synyiOntology:褥式缝合,
+        synyiOntology:解剖性肝切除,
+        synyiOntology:调强放疗,
+        synyiOntology:超声刀,
+        synyiOntology:辅助化疗,
+        synyiOntology:辅助性放疗,
+        synyiOntology:钳夹法,
+        synyiOntology:门静脉主干阻断,
+        synyiOntology:门静脉右支阻断,
+        synyiOntology:门静脉左支阻断,
+        synyiOntology:陈氏悬吊法,
+        synyiOntology:非解剖性肝切除,
+        synyiOntology:靶向药物治疗,
+        synyiOntology:预结扎入肝出肝血流阻断 ;
+    synyiOntology:治疗方案 synyiOntology:健脾理气,
+        synyiOntology:气阴两虚,
+        synyiOntology:活血化瘀,
+        synyiOntology:清热解毒 ;
+    synyiOntology:治疗药物 synyiOntology:PVA颗粒,
+        synyiOntology:伊立替康,
+        synyiOntology:冰醋酸,
+        synyiOntology:利巴韦林,
+        synyiOntology:卡铂,
+        synyiOntology:吉西他滨,
+        synyiOntology:吉非替尼,
+        synyiOntology:吡喃阿霉素,
+        synyiOntology:吡柔比星,
+        synyiOntology:埃罗替尼,
+        synyiOntology:多柔比星,
+        synyiOntology:奥曲肽,
+        synyiOntology:奥沙利铂,
+        synyiOntology:尼罗替尼,
+        synyiOntology:布立尼布,
+        synyiOntology:干扰素,
+        synyiOntology:康艾注射液,
+        synyiOntology:康赛迪胶囊,
+        synyiOntology:恩替卡韦,
+        synyiOntology:慈丹胶囊,
+        synyiOntology:拉米夫定,
+        synyiOntology:拓扑替康,
+        synyiOntology:无水乙醇,
+        synyiOntology:明胶海绵,
+        synyiOntology:普通IFN-α,
+        synyiOntology:替比夫定,
+        synyiOntology:替诺福韦酯,
+        synyiOntology:槐耳颗粒,
+        synyiOntology:氟尿嘧啶,
+        synyiOntology:洛铂,
+        synyiOntology:瑞戈替尼,
+        synyiOntology:白介素胸腺肽,
+        synyiOntology:碘佛醇,
+        synyiOntology:碘克沙醇,
+        synyiOntology:碘帕醇,
+        synyiOntology:碘油,
+        synyiOntology:碘海醇,
+        synyiOntology:索拉非尼,
+        synyiOntology:索非布韦,
+        synyiOntology:紫杉醇,
+        synyiOntology:维帕他韦,
+        synyiOntology:聚乙二醇化干扰素,
+        synyiOntology:胸腺五肽,
+        synyiOntology:舒尼替尼,
+        synyiOntology:艾迪注射液,
+        synyiOntology:苦参注射液,
+        synyiOntology:表柔比星,
+        synyiOntology:贝伐单抗,
+        synyiOntology:载药微球,
+        synyiOntology:达卡他韦,
+        synyiOntology:金龙胶囊,
+        synyiOntology:长效奥曲肽,
+        synyiOntology:阿司匹林,
+        synyiOntology:阿帕替尼,
+        synyiOntology:阿德福韦酯,
+        synyiOntology:阿西替尼,
+        synyiOntology:阿霉素,
+        synyiOntology:雷替曲塞,
+        synyiOntology:雷迪帕韦,
+        synyiOntology:顺铂 ;
+    synyiOntology:症状 synyiOntology:乏力,
+        synyiOntology:体重改变,
+        synyiOntology:便血,
+        synyiOntology:发热,
+        synyiOntology:呕吐,
+        synyiOntology:呕血,
+        synyiOntology:恶心,
+        synyiOntology:消瘦,
+        synyiOntology:精神改变,
+        synyiOntology:肝区疼痛,
+        synyiOntology:腹泻,
+        synyiOntology:腹胀,
+        synyiOntology:食欲降低,
+        synyiOntology:黄疸 ;
+    synyiOntology:科室 synyiOntology:肿瘤科 ;
+    synyiOntology:诊断相关检查 synyiOntology:CT,
+        synyiOntology:ECT,
+        synyiOntology:MRI,
+        synyiOntology:PET-CT,
+        synyiOntology:肝动脉造影,
+        synyiOntology:胃镜,
+        synyiOntology:胸片,
+        synyiOntology:超声显影检查 ;
+    synyiOntology:辅助检查 synyiOntology:CT,
+        synyiOntology:DSA,
+        synyiOntology:MRI,
+        synyiOntology:PET-CT,
+        synyiOntology:PR间期,
+        synyiOntology:P波周期,
+        synyiOntology:QRS电轴,
+        synyiOntology:QRS间期,
+        synyiOntology:QT,
+        synyiOntology:QTc,
+        synyiOntology:RV5,
+        synyiOntology:SV1,
+        synyiOntology:交界性早搏,
+        synyiOntology:室上性心动过速,
+        synyiOntology:室性心动过速,
+        synyiOntology:室性早搏,
+        synyiOntology:室性自主心律,
+        synyiOntology:心室扑动,
+        synyiOntology:心室率,
+        synyiOntology:心室颤动,
+        synyiOntology:心房扑动,
+        synyiOntology:心房率,
+        synyiOntology:心房颤动,
+        synyiOntology:房室传导阻滞,
+        synyiOntology:房室传导阻滞III度,
+        synyiOntology:房室传导阻滞II度II型,
+        synyiOntology:房室传导阻滞II度I型,
+        synyiOntology:房室传导阻滞I度,
+        synyiOntology:房性心动过速,
+        synyiOntology:房性早搏,
+        synyiOntology:监测术中血流动力学,
+        synyiOntology:窦性心动过缓,
+        synyiOntology:窦性心动过速,
+        synyiOntology:窦性心律,
+        synyiOntology:窦性心律不齐,
+        synyiOntology:超声 ;
+    synyiOntology:麻醉方式 synyiOntology:III级麻醉,
+        synyiOntology:II级麻醉,
+        synyiOntology:IV级麻醉,
+        synyiOntology:I级麻醉,
+        synyiOntology:V级麻醉,
+        synyiOntology:全麻,
+        synyiOntology:吸入麻醉,
+        synyiOntology:复合麻醉,
+        synyiOntology:局部麻醉,
+        synyiOntology:局麻,
+        synyiOntology:静脉麻醉 ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:肿瘤基因突变负荷 rdfs:label "肿瘤基因突变负荷" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+<http://synyi.com/ontology/肿瘤浸润淋巴细胞检测（%）> rdfs:label "肿瘤浸润淋巴细胞检测（%）" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:表达联合阳性评分 rdfs:label "表达联合阳性评分" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+<http://synyi.com/ontology/表达肿瘤比例分数（%）> rdfs:label "表达肿瘤比例分数（%）" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:诊断相关检查 a owl:ObjectProperty .
+
+synyiOntology:辅助检查 a owl:ObjectProperty .
+
+synyiOntology:麻醉方式 a owl:ObjectProperty .
+
+synyiOntology:AFP rdfs:label "AFP" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:ARID1A rdfs:label "ARID1A" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:ARID2 rdfs:label "ARID2" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:ATM rdfs:label "ATM" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:AXIN1 rdfs:label "AXIN1" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:Arg-1 rdfs:label "Arg-1" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:Arginase-1 rdfs:label "Arginase-1" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:Belghiti悬吊法 rdfs:label "Belghiti悬吊法" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:CD34 rdfs:label "CD34" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:CDKN2A rdfs:label "CDKN2A" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:CIK rdfs:label "CIK" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:CK19 rdfs:label "CK19" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:CK7 rdfs:label "CK7" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:CTNNB1 rdfs:label "CTNNB1" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:CUSA rdfs:label "CUSA" ;
+    rdfs:subClassOf synyiOntology:医疗器械 .
+
+synyiOntology:CgA rdfs:label "CgA" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:DC_CIK rdfs:label "DC CIK" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:DSA rdfs:label "DSA" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:ECT rdfs:label "ECT" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:EMA rdfs:label "EMA" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:ERBE电凝钳 rdfs:label "ERBE电凝钳" ;
+    rdfs:subClassOf synyiOntology:医疗器械 .
+
+synyiOntology:GS rdfs:label "GS" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:Glypican-3 rdfs:label "Glypican-3" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:HNF1A rdfs:label "HNF1A" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:HSP70 rdfs:label "HSP70" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:Hepatocyte rdfs:label "Hepatocyte" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:III级麻醉 rdfs:label "III级麻醉" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:II级麻醉 rdfs:label "II级麻醉" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:IV级麻醉 rdfs:label "IV级麻醉" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:I级麻醉 rdfs:label "I级麻醉" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:KMT2C rdfs:label "KMT2C" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:Ki67 rdfs:label "Ki67" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+<http://synyi.com/ontology/LAK/TIL> rdfs:label "LAK/TIL" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:Ligasure rdfs:label "Ligasure" ;
+    rdfs:subClassOf synyiOntology:医疗器械 .
+
+synyiOntology:NK rdfs:label "NK" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:PD-1相关检测 rdfs:label "PD-1相关检测" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:PD-1表达 rdfs:label "PD-1表达" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:PD1 rdfs:label "PD1" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:PDL-1 rdfs:label "PDL-1" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:PDL-1表达 rdfs:label "PDL-1表达" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:PIK3CA rdfs:label "PIK3CA" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:PR间期 rdfs:label "PR间期" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:PVA颗粒 rdfs:label "PVA颗粒" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:P波周期 rdfs:label "P波周期" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:QRS电轴 rdfs:label "QRS电轴" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:QRS间期 rdfs:label "QRS间期" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:QT rdfs:label "QT" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:QTc rdfs:label "QTc" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:RFA rdfs:label "RFA" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:RFA-消融针 rdfs:label "RFA-消融针" ;
+    rdfs:subClassOf synyiOntology:医疗器械 .
+
+synyiOntology:RFA设备 rdfs:label "RFA设备" ;
+    rdfs:subClassOf synyiOntology:医疗器械 .
+
+synyiOntology:RV5 rdfs:label "RV5" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:SV1 rdfs:label "SV1" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:Syn rdfs:label "Syn" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:TACE手术 rdfs:label "TACE手术" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:TERT rdfs:label "TERT" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:TP53 rdfs:label "TP53" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:TTF1 rdfs:label "TTF1" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:TcM rdfs:label "TcM" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:Tissuelink rdfs:label "Tissuelink" ;
+    rdfs:subClassOf synyiOntology:医疗器械 .
+
+synyiOntology:V级麻醉 rdfs:label "V级麻醉" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:WMA rdfs:label "WMA" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:WMA设备 rdfs:label "WMA设备" ;
+    rdfs:subClassOf synyiOntology:医疗器械 .
+
+synyiOntology:丁型病毒性肝炎 rdfs:label "丁型病毒性肝炎" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:三维适形放疗 rdfs:label "三维适形放疗" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:下腔静脉癌栓 rdfs:label "下腔静脉癌栓" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:不完整包膜 rdfs:label "不完整包膜" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:丙型病毒性肝炎 rdfs:label "丙型病毒性肝炎" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:丙肝抗原抗体检测 rdfs:label "丙肝抗原抗体检测" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:丙肝病毒抗体 rdfs:label "丙肝病毒抗体" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:丙肝病毒的核糖核酸 rdfs:label "丙肝病毒的核糖核酸" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:中分化 rdfs:label "中分化" ;
+    rdfs:subClassOf synyiOntology:诊断标准 .
+
+synyiOntology:中度脂肪肝 rdfs:label "中度脂肪肝" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:乏力 rdfs:label "乏力" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:乙型病毒性肝炎 rdfs:label "乙型病毒性肝炎" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:乙型肝炎E抗体 rdfs:label "乙型肝炎E抗体" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:乙型肝炎E抗原 rdfs:label "乙型肝炎E抗原" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:乙型肝炎病毒表面抗体 rdfs:label "乙型肝炎病毒表面抗体" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:乙肝抗原抗体检测 rdfs:label "乙肝抗原抗体检测" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:乙肝核心抗体 rdfs:label "乙肝核心抗体" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:乙肝病毒DNA rdfs:label "乙肝病毒DNA" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:乙肝表面抗原 rdfs:label "乙肝表面抗原" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:乳糜样引流液 rdfs:label "乳糜样引流液" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:交界性早搏 rdfs:label "交界性早搏" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:以色列氩氦刀 rdfs:label "以色列氩氦刀" ;
+    rdfs:subClassOf synyiOntology:医疗器械 .
+
+synyiOntology:伊立替康 rdfs:label "伊立替康" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:伽马刀 rdfs:label "伽马刀" ;
+    rdfs:subClassOf synyiOntology:医疗器械 .
+
+synyiOntology:低分化 rdfs:label "低分化" ;
+    rdfs:subClassOf synyiOntology:诊断标准 .
+
+synyiOntology:体重改变 rdfs:label "体重改变" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:便血 rdfs:label "便血" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:健脾理气 rdfs:label "健脾理气" ;
+    rdfs:subClassOf synyiOntology:用药目的 .
+
+synyiOntology:全麻 rdfs:label "全麻" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:内热 rdfs:label "内热" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:内照射 rdfs:label "内照射" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:冠心病 rdfs:label "冠心病" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:冰醋酸 rdfs:label "冰醋酸" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:冷冻消融 rdfs:label "冷冻消融" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:利巴韦林 rdfs:label "利巴韦林" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:化学消融 rdfs:label "化学消融" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:化疗治疗 rdfs:label "化疗治疗" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:区域淋巴结清扫术 rdfs:label "区域淋巴结清扫术" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:半肝切除术 rdfs:label "半肝切除术" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:卡铂 rdfs:label "卡铂" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:原发性硬化性胆管炎 rdfs:label "原发性硬化性胆管炎" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:原发性胆汁性肝硬化 rdfs:label "原发性胆汁性肝硬化" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:双极电凝 rdfs:label "双极电凝" ;
+    rdfs:subClassOf synyiOntology:医疗器械 .
+
+synyiOntology:发热 rdfs:label "发热" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:取癌栓或切除癌栓 rdfs:label "取癌栓或切除癌栓" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:右侧入肝血流阻断 rdfs:label "右侧入肝血流阻断" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:吉西他滨 rdfs:label "吉西他滨" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:吉非替尼 rdfs:label "吉非替尼" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:吡喃阿霉素 rdfs:label "吡喃阿霉素" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:吡柔比星 rdfs:label "吡柔比星" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:吸入麻醉 rdfs:label "吸入麻醉" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:吸烟 rdfs:label "吸烟" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:呕吐 rdfs:label "呕吐" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:呕血 rdfs:label "呕血" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:埃罗替尼 rdfs:label "埃罗替尼" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:墨绿色引流液 rdfs:label "墨绿色引流液" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:复合麻醉 rdfs:label "复合麻醉" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:多柔比星 rdfs:label "多柔比星" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:奥曲肽 rdfs:label "奥曲肽" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:奥沙利铂 rdfs:label "奥沙利铂" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:妇科恶性肿瘤 rdfs:label "妇科恶性肿瘤" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:姑息性放疗 rdfs:label "姑息性放疗" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:完整包膜 rdfs:label "完整包膜" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:室上性心动过速 rdfs:label "室上性心动过速" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:室性心动过速 rdfs:label "室性心动过速" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:室性早搏 rdfs:label "室性早搏" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:室性自主心律 rdfs:label "室性自主心律" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:射波刀 rdfs:label "射波刀" ;
+    rdfs:subClassOf synyiOntology:医疗器械 .
+
+synyiOntology:尼罗替尼 rdfs:label "尼罗替尼" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:局部消融治疗 rdfs:label "局部消融治疗" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:局部麻醉 rdfs:label "局部麻醉" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:局麻 rdfs:label "局麻" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:左侧入肝血流阻断 rdfs:label "左侧入肝血流阻断" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:布立尼布 rdfs:label "布立尼布" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:干扰素 rdfs:label "干扰素" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:康艾注射液 rdfs:label "康艾注射液" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:康赛迪胶囊 rdfs:label "康赛迪胶囊" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:开放式手术 rdfs:label "开放式手术" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:彭氏刮吸刀 rdfs:label "彭氏刮吸刀" ;
+    rdfs:subClassOf synyiOntology:医疗器械 .
+
+synyiOntology:微波固化 rdfs:label "微波固化" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:微波消融 rdfs:label "微波消融" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:心室扑动 rdfs:label "心室扑动" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:心室率 rdfs:label "心室率" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:心室颤动 rdfs:label "心室颤动" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:心房扑动 rdfs:label "心房扑动" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:心房率 rdfs:label "心房率" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:心房颤动 rdfs:label "心房颤动" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:心绞痛 rdfs:label "心绞痛" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:心肌梗死 rdfs:label "心肌梗死" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:恩替卡韦 rdfs:label "恩替卡韦" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:恶心 rdfs:label "恶心" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:慈丹胶囊 rdfs:label "慈丹胶囊" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:戊型病毒性肝炎 rdfs:label "戊型病毒性肝炎" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:房室传导阻滞 rdfs:label "房室传导阻滞" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:房室传导阻滞III度 rdfs:label "房室传导阻滞III度" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:房室传导阻滞II度II型 rdfs:label "房室传导阻滞II度II型" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:房室传导阻滞II度I型 rdfs:label "房室传导阻滞II度I型" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:房室传导阻滞I度 rdfs:label "房室传导阻滞I度" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:房性心动过速 rdfs:label "房性心动过速" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:房性早搏 rdfs:label "房性早搏" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:手术操作信息-淋巴结清扫 rdfs:label "手术操作信息-淋巴结清扫" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:手术操作信息-肝断面处理方式 rdfs:label "手术操作信息-肝断面处理方式" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:扩大半肝切除术 rdfs:label "扩大半肝切除术" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:扩大淋巴结清扫 rdfs:label "扩大淋巴结清扫" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:抗病毒治疗 rdfs:label "抗病毒治疗" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:拉米夫定 rdfs:label "拉米夫定" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:拓扑替康 rdfs:label "拓扑替康" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:新辅助化疗 rdfs:label "新辅助化疗" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:无包膜 rdfs:label "无包膜" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:无水乙醇 rdfs:label "无水乙醇" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:明胶海绵 rdfs:label "明胶海绵" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:普通IFN-α rdfs:label "普通IFN-α" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:暗红色引流液 rdfs:label "暗红色引流液" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:替比夫定 rdfs:label "替比夫定" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:替诺福韦酯 rdfs:label "替诺福韦酯" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:术中放疗 rdfs:label "术中放疗" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:术前放疗 rdfs:label "术前放疗" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:术后放疗 rdfs:label "术后放疗" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:机器人手术 rdfs:label "机器人手术" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:根治性放疗 rdfs:label "根治性放疗" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:槐耳颗粒 rdfs:label "槐耳颗粒" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:止血纱布覆盖 rdfs:label "止血纱布覆盖" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:气滞 rdfs:label "气滞" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:气阴两虚 rdfs:label "气阴两虚" ;
+    rdfs:subClassOf synyiOntology:用药目的 .
+
+synyiOntology:氟尿嘧啶 rdfs:label "氟尿嘧啶" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:氩气刀烧灼 rdfs:label "氩气刀烧灼" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:水刀 rdfs:label "水刀" ;
+    rdfs:subClassOf synyiOntology:医疗器械 .
+
+synyiOntology:治疗性化疗 rdfs:label "治疗性化疗" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:洛铂 rdfs:label "洛铂" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:活血化瘀 rdfs:label "活血化瘀" ;
+    rdfs:subClassOf synyiOntology:用药目的 .
+
+synyiOntology:浆液性引流液 rdfs:label "浆液性引流液" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:消瘦 rdfs:label "消瘦" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:液氮 rdfs:label "液氮" ;
+    rdfs:subClassOf synyiOntology:医疗器械 .
+
+synyiOntology:淋巴结清扫 rdfs:label "淋巴结清扫" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:淋巴结转移 rdfs:label "淋巴结转移" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:淡绿色引流液 rdfs:label "淡绿色引流液" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:淡血性引流液 rdfs:label "淡血性引流液" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:淤血性肝硬化 rdfs:label "淤血性肝硬化" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:混合型 rdfs:label "混合型" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:混合型肝癌 rdfs:label "混合型肝癌" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:清热解毒 rdfs:label "清热解毒" ;
+    rdfs:subClassOf synyiOntology:用药目的 .
+
+synyiOntology:湿热 rdfs:label "湿热" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:瑞戈替尼 rdfs:label "瑞戈替尼" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:生物治疗 rdfs:label "生物治疗" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:生物蛋白胶覆盖 rdfs:label "生物蛋白胶覆盖" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:甲型病毒性肝炎 rdfs:label "甲型病毒性肝炎" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:电刀 rdfs:label "电刀" ;
+    rdfs:subClassOf synyiOntology:医疗器械 .
+
+synyiOntology:留置腹腔引流管 rdfs:label "留置腹腔引流管" ;
+    rdfs:subClassOf synyiOntology:医疗器械 .
+
+synyiOntology:病毒性肝炎 rdfs:label "病毒性肝炎" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:病毒滴度 rdfs:label "病毒滴度" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:痰凝 rdfs:label "痰凝" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:癌栓 rdfs:label "癌栓" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:白介素胸腺肽 rdfs:label "白介素胸腺肽" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:白蛋白 rdfs:label "白蛋白" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:监测术中血流动力学 rdfs:label "监测术中血流动力学" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:碘佛醇 rdfs:label "碘佛醇" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:碘克沙醇 rdfs:label "碘克沙醇" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:碘帕醇 rdfs:label "碘帕醇" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:碘油 rdfs:label "碘油" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:碘海醇 rdfs:label "碘海醇" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:神经系统恶性肿瘤 rdfs:label "神经系统恶性肿瘤" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:窦性心动过缓 rdfs:label "窦性心动过缓" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:窦性心动过速 rdfs:label "窦性心动过速" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:窦性心律 rdfs:label "窦性心律" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:窦性心律不齐 rdfs:label "窦性心律不齐" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:立体定向放疗 rdfs:label "立体定向放疗" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:第一肝门阻断 rdfs:label "第一肝门阻断" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:精神改变 rdfs:label "精神改变" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:糖尿病 rdfs:label "糖尿病" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:索拉非尼 rdfs:label "索拉非尼" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:索非布韦 rdfs:label "索非布韦" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:紫杉醇 rdfs:label "紫杉醇" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:纳米刀消融 rdfs:label "纳米刀消融" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:纳米刀消融-纳米刀设备 rdfs:label "纳米刀消融-纳米刀设备" ;
+    rdfs:subClassOf synyiOntology:医疗器械 .
+
+synyiOntology:细菌性肝炎 rdfs:label "细菌性肝炎" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:维帕他韦 rdfs:label "维帕他韦" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:缺血型心力衰竭 rdfs:label "缺血型心力衰竭" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:美国氩氦刀 rdfs:label "美国氩氦刀" ;
+    rdfs:subClassOf synyiOntology:医疗器械 .
+
+synyiOntology:聚乙二醇化干扰素 rdfs:label "聚乙二醇化干扰素" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:肝上下腔静脉阻断 rdfs:label "肝上下腔静脉阻断" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:肝下下腔静脉阻断 rdfs:label "肝下下腔静脉阻断" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:肝中静脉癌栓 rdfs:label "肝中静脉癌栓" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:肝中静脉阻断 rdfs:label "肝中静脉阻断" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:肝内胆管癌 rdfs:label "肝内胆管癌" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:肝内转移 rdfs:label "肝内转移" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:肝动脉造影 rdfs:label "肝动脉造影" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:肝区疼痛 rdfs:label "肝区疼痛" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:肝右动脉阻断 rdfs:label "肝右动脉阻断" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:肝右静脉癌栓 rdfs:label "肝右静脉癌栓" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:肝右静脉阻断 rdfs:label "肝右静脉阻断" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:肝固有动脉阻断 rdfs:label "肝固有动脉阻断" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:肝射频消融术 rdfs:label "肝射频消融术" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:肝尾叶切除术 rdfs:label "肝尾叶切除术" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:肝左动脉阻断 rdfs:label "肝左动脉阻断" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:肝左静脉癌栓 rdfs:label "肝左静脉癌栓" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:肝左静脉阻断 rdfs:label "肝左静脉阻断" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:肝段切除术 rdfs:label "肝段切除术" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:肝母细胞瘤 rdfs:label "肝母细胞瘤" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:肝炎 rdfs:label "肝炎" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:肝炎后肝硬化 rdfs:label "肝炎后肝硬化" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:肝畸胎瘤 rdfs:label "肝畸胎瘤" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:肝移植术 rdfs:label "肝移植术" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:肝细胞型 rdfs:label "肝细胞型" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:肝细胞癌 rdfs:label "肝细胞癌" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:肝细胞腺癌 rdfs:label "肝细胞腺癌" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:肝肿大 rdfs:label "肝肿大" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:肝肿瘤剜除术 rdfs:label "肝肿瘤剜除术" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:肝肿瘤局限性切除术 rdfs:label "肝肿瘤局限性切除术" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:肝脏肿瘤 rdfs:label "肝脏肿瘤" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:肝脏质地坚硬 rdfs:label "肝脏质地坚硬" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:肝血管瘤 rdfs:label "肝血管瘤" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:肝血管肉瘤 rdfs:label "肝血管肉瘤" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:肝转移性肿瘤 rdfs:label "肝转移性肿瘤" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:肝郁 rdfs:label "肝郁" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:肝错构瘤 rdfs:label "肝错构瘤" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:肝静脉癌栓 rdfs:label "肝静脉癌栓" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:肿瘤包膜 rdfs:label "肿瘤包膜" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:肿瘤大小 rdfs:label "肿瘤大小" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:肿瘤数量 rdfs:label "肿瘤数量" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:肿瘤浸润深度 rdfs:label "肿瘤浸润深度" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:肿瘤破溃 rdfs:label "肿瘤破溃" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:肿瘤破裂 rdfs:label "肿瘤破裂" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:肿瘤科 rdfs:label "肿瘤科" ;
+    rdfs:subClassOf synyiOntology:组织机构 .
+
+synyiOntology:肿瘤部位 rdfs:label "肿瘤部位" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:胃镜 rdfs:label "胃镜" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:胆囊癌 rdfs:label "胆囊癌" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:胆汁样引流液 rdfs:label "胆汁样引流液" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:胆汁淤积性肝硬化 rdfs:label "胆汁淤积性肝硬化" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:胆管癌 rdfs:label "胆管癌" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:胆管癌栓 rdfs:label "胆管癌栓" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:胆管细胞型 rdfs:label "胆管细胞型" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:胰腺癌 rdfs:label "胰腺癌" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:胸片 rdfs:label "胸片" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:胸腺五肽 rdfs:label "胸腺五肽" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:脂肪肝 rdfs:label "脂肪肝" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:脂肪肝肝硬化 rdfs:label "脂肪肝肝硬化" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:脉管侵犯 rdfs:label "脉管侵犯" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:脉管内癌栓 rdfs:label "脉管内癌栓" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:脓性引流液 rdfs:label "脓性引流液" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:脾虚 rdfs:label "脾虚" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:腔镜中转开放手术 rdfs:label "腔镜中转开放手术" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:腔镜手术 rdfs:label "腔镜手术" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:腹泻 rdfs:label "腹泻" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:腹胀 rdfs:label "腹胀" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:腹腔镜肝切除术 rdfs:label "腹腔镜肝切除术" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:腹部包块 rdfs:label "腹部包块" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:自身免疫性肝炎 rdfs:label "自身免疫性肝炎" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:自身免疫性肝硬化 rdfs:label "自身免疫性肝硬化" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:自身免疫性肝脏疾病 rdfs:label "自身免疫性肝脏疾病" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:舒尼替尼 rdfs:label "舒尼替尼" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:艾迪注射液 rdfs:label "艾迪注射液" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:苦参注射液 rdfs:label "苦参注射液" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:药物性肝炎 rdfs:label "药物性肝炎" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:药物性肝硬化 rdfs:label "药物性肝硬化" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:血吸虫性肝硬化 rdfs:label "血吸虫性肝硬化" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:血性引流液 rdfs:label "血性引流液" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:血氧饱和度 rdfs:label "血氧饱和度" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:血液系统肿瘤 rdfs:label "血液系统肿瘤" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:血瘀 rdfs:label "血瘀" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:血虚 rdfs:label "血虚" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:表柔比星 rdfs:label "表柔比星" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:褥式缝合 rdfs:label "褥式缝合" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:解剖性肝切除 rdfs:label "解剖性肝切除" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+<http://synyi.com/ontology/诊断TNM分期（M）> rdfs:label "诊断TNM分期（M）" ;
+    rdfs:subClassOf synyiOntology:诊断标准 .
+
+<http://synyi.com/ontology/诊断TNM分期（N）> rdfs:label "诊断TNM分期（N）" ;
+    rdfs:subClassOf synyiOntology:诊断标准 .
+
+<http://synyi.com/ontology/诊断TNM分期（T）> rdfs:label "诊断TNM分期（T）" ;
+    rdfs:subClassOf synyiOntology:诊断标准 .
+
+synyiOntology:调强放疗 rdfs:label "调强放疗" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:贝伐单抗 rdfs:label "贝伐单抗" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:超声 rdfs:label "超声" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:超声刀 rdfs:label "超声刀" ;
+    rdfs:subClassOf synyiOntology:医疗器械 .
+
+synyiOntology:超声显影检查 rdfs:label "超声显影检查" ;
+    rdfs:subClassOf synyiOntology:观测操作 .
+
+synyiOntology:轻度脂肪肝 rdfs:label "轻度脂肪肝" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:载药微球 rdfs:label "载药微球" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:辅助化疗 rdfs:label "辅助化疗" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:辅助性放疗 rdfs:label "辅助性放疗" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:达卡他韦 rdfs:label "达卡他韦" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:过敏 rdfs:label "过敏" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:远处转移 rdfs:label "远处转移" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:酒精性肝炎 rdfs:label "酒精性肝炎" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:酒精性肝硬化 rdfs:label "酒精性肝硬化" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:重度脂肪肝 rdfs:label "重度脂肪肝" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:金龙胶囊 rdfs:label "金龙胶囊" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:钳夹法 rdfs:label "钳夹法" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:长效奥曲肽 rdfs:label "长效奥曲肽" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:门静脉主干阻断 rdfs:label "门静脉主干阻断" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:门静脉右支阻断 rdfs:label "门静脉右支阻断" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:门静脉左支阻断 rdfs:label "门静脉左支阻断" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:门静脉癌栓 rdfs:label "门静脉癌栓" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:阳性淋巴结 rdfs:label "阳性淋巴结" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:阳虚 rdfs:label "阳虚" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:阴虚 rdfs:label "阴虚" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:阿司匹林 rdfs:label "阿司匹林" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:阿帕替尼 rdfs:label "阿帕替尼" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:阿德福韦酯 rdfs:label "阿德福韦酯" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:阿西替尼 rdfs:label "阿西替尼" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:阿霉素 rdfs:label "阿霉素" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:陈氏悬吊法 rdfs:label "陈氏悬吊法" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:雷替曲塞 rdfs:label "雷替曲塞" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:雷迪帕韦 rdfs:label "雷迪帕韦" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:静脉麻醉 rdfs:label "静脉麻醉" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:非解剖性肝切除 rdfs:label "非解剖性肝切除" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:非酒精性肝炎 rdfs:label "非酒精性肝炎" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:非酒精性脂肪性肝硬化 rdfs:label "非酒精性脂肪性肝硬化" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:靶向药物治疗 rdfs:label "靶向药物治疗" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:顺铂 rdfs:label "顺铂" ;
+    rdfs:subClassOf synyiOntology:药品 .
+
+synyiOntology:预结扎入肝出肝血流阻断 rdfs:label "预结扎入肝出肝血流阻断" ;
+    rdfs:subClassOf synyiOntology:操作 .
+
+synyiOntology:食欲降低 rdfs:label "食欲降低" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:饮酒 rdfs:label "饮酒" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:骨骼系统恶性肿瘤 rdfs:label "骨骼系统恶性肿瘤" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:高分化 rdfs:label "高分化" ;
+    rdfs:subClassOf synyiOntology:诊断标准 .
+
+synyiOntology:高血压 rdfs:label "高血压" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:鲜红色引流液 rdfs:label "鲜红色引流液" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:CT rdfs:label "CT" ;
+    rdfs:subClassOf synyiOntology:操作,
+        synyiOntology:观测操作 .
+
+synyiOntology:MRI rdfs:label "MRI" ;
+    rdfs:subClassOf synyiOntology:操作,
+        synyiOntology:观测操作 .
+
+synyiOntology:PET-CT rdfs:label "PET-CT" ;
+    rdfs:subClassOf synyiOntology:操作,
+        synyiOntology:观测操作 .
+
+synyiOntology:全血 rdfs:label "全血" ;
+    rdfs:subClassOf synyiOntology:操作,
+        synyiOntology:药品 .
+
+synyiOntology:冷沉淀 rdfs:label "冷沉淀" ;
+    rdfs:subClassOf synyiOntology:操作,
+        synyiOntology:药品 .
+
+synyiOntology:红细胞 rdfs:label "红细胞" ;
+    rdfs:subClassOf synyiOntology:操作,
+        synyiOntology:药品 .
+
+synyiOntology:脾肿大 rdfs:label "脾肿大" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:血小板 rdfs:label "血小板" ;
+    rdfs:subClassOf synyiOntology:操作,
+        synyiOntology:药品 .
+
+synyiOntology:血浆 rdfs:label "血浆" ;
+    rdfs:subClassOf synyiOntology:操作,
+        synyiOntology:药品 .
+
+synyiOntology:黄疸 rdfs:label "黄疸" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:肝硬化 rdfs:label "肝硬化" ;
+    rdfs:subClassOf synyiOntology:疾病 .
+
+synyiOntology:腹水 rdfs:label "腹水" ;
+    rdfs:subClassOf synyiOntology:临床所见 .
+
+synyiOntology:操作 a owl:ObjectProperty .
+
